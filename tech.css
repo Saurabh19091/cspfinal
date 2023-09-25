@@ -1,0 +1,47 @@
+/* Basic styles for the header, navigation, and footer */
+
+header,
+nav,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+/* Style for the logo */
+
+#logo {
+    width: 60px;
+    /* Adjust the width to match the size of your logo */
+    height: 60px;
+    /* Adjust the height to match the size of your logo */
+    margin-right: 10px;
+}
+
+
+/* Optional: Add styles for the links on hover (e.g., change color) */
+
+nav ul li a:hover {
+    color: #FF5733;
+    /* Change to your desired hover color */
+}
+
+.main {
+    height: 800px;
+    width: 100%;
+    background-image: url(/img/michael-marsh-U0dBV_QeiYk-unsplash.jpg);
+    background-size: cover;
+    padding: 20px;
+}

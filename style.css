@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.container-fluid {
+    background: linear-gradient(45deg, #cac4c4, #4b92e3);
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+    color: #00acde;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+#chat-bot-icon {
+    position: fixed;
+    bottom: 20px;
+    /* Adjust the distance from the bottom as needed */
+    right: 20px;
+    /* Adjust the distance from the right as needed */
+    z-index: 9999;
+    /* Ensure it appears above other content */
+    /* Additional styling for your chat bot icon */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+#fixed img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.fa-code {
+    color: greenyellow;
+}
+
+.fa-bold {
+    color: #563d7c;
+}
+
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-code,
+.fa-bold,
+.fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.gif {
+    max-width: 100%;
+}
+
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #5b5998;
+}
+
+.fa-twitter {
+    color: #00acde;
+}
+
+.fa-google-plus-g {
+    color: #dd4d39;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#fixed img {
+    width: 100%;
+}
+
+hr.light-100 {
+    border: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+/* Meida Queries */
+
+@media (max-width:992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: 0.2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+}
+
+
+/* fixed background */
+
+
+/* figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fixed {
+    background-image: url('img/mac.png');
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    will-change: transform;
+} */
+
+.ok {
+    color: rgb(12, 241, 187);
+}
+
+.ip {
+    display: inline-block;
+    padding: 15px 45px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1515e9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #322035;
+}
+
+.ip :hover {
+    background-color: #ec0e33;
+}
+
+.bb {
+    background-color: #bb0000;
+    align-items: baseline;
+}
+
+.collapse navbar-collapse {
+    background-color: blue;
+}
+
+.p {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f00404;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #322035;
+}
