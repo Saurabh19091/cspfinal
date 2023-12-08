@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-    background: linear-gradient(45deg, #cac4c4, #4b92e3);
+    background: linear-gradient(45deg, #cac4c4, #4b92e3);  
 }
 
 .navbar {
@@ -288,4 +288,67 @@ hr.light-100 {
     border: none;
     border-radius: 15px;
     box-shadow: 0 5px #322035;
+}
+
+/* Existing styles remain unchanged */
+
+/* Existing styles remain unchanged */
+
+/* Existing styles remain unchanged */
+
+/* Existing styles remain unchanged */
+
+/* Existing styles remain unchanged */
+
+/* Add a style for the feature container wrapper */
+/* Existing styles remain unchanged */
+
+/* Add a style for the feature container wrapper */
+.feature-container-wrapper {
+    text-align: center; /* Center the boxes */
+}
+
+.feature-container {
+    border: 4px solid;
+    border-image: linear-gradient(to right, #030ff2, #2196F3);
+    border-image-slice: 1;
+    margin-bottom: 20px;
+    padding: 10px; /* Reduced padding */
+    text-align: center; /* Center the icon and text */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    display: inline-block; /* Display horizontally */
+    width: 45%; /* Adjust the width as needed */
+    box-sizing: border-box; /* Include padding and border in the width */
+    opacity: 0; /* Initial opacity set to 0 for the fade-in effect */
+    animation: fadeIn 1s ease-in-out forwards; /* Animation property */
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.feature-container i {
+    font-size: 1.5em; /* Reduced icon size */
+    margin-bottom: 5px; /* Reduced space between the icon and text */
+}
+
+.feature-content {
+    color: #fff; /* White text color */
+}
+
+.feature-content a {
+    color: #1b07f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.feature-content a:hover {
+    text-decoration: underline;
 }
